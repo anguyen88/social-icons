@@ -1,0 +1,163 @@
+.social-share-row {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    position: relative;
+    margin: 2em 1em;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    padding: 0;
+    border-radius: 50%;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    transition: all 250ms;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(-4px);
+    -moz-transform: translateY(-4px);
+    transform: translateY(-4px);
+}
+
+button:focus {
+    outline: none;
+}
+
+.social:before {
+    position: absolute;
+    transition: all 0.25s ease;
+    display: block;
+    content: '';
+    width: 0px;
+    height: 0px;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+}
+
+.social:hover:before {
+    transition: all 0.25s ease;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.social:hover .social-icon {
+    transition: all 0.25s ease;
+    color: white;
+}
+
+.social-icon {
+    transition: all 0.25s ease;
+    float: left;
+    position: absolute;
+}
+
+/* Twitter Social Button*/
+
+.social-icon-twitter {
+    color: #00aced;
+    top: 26%;
+    left: 27%;
+}
+
+.twitter:before {
+    background-color: #00aced;
+}
+
+/* Facebook Social Button*/
+
+.social-icon-facebook {
+    color: #3b5998;
+    top: 26%;
+    left: 35%;
+}
+
+.facebook:active {
+    background-color: #243760;
+}
+
+.facebook:before {
+    background-color: #3b5998;
+}
+
+/* instagram Social Button*/
+
+.social-icon-instagram {
+    color: #517fa4;
+    top: 22%;
+    left: 28%;
+}
+
+.instagram:before {
+    background-color: #517fa4;
+}
+
+/* pinterest Social Button*/
+
+.social-icon-pinterest {
+    color: #cb2027;
+    top: 22%;
+    left: 28%;
+}
+
+.pinterest:before {
+    background-color: #cb2027;
+}
+
+/* dribbble Social Button*/
+
+.social-icon-dribbble {
+    color: #ea4c89;
+    top: 21%;
+    left: 28%;
+}
+
+.dribbble:before {
+    background-color: #ea4c89;
+}
+
+/* google-plus Social Button*/
+
+.social-icon-google-plus {
+    color: #dd4b39;
+    top: 22%;
+    left: 28%;
+}
+
+.google-plus:before {
+    background-color: #dd4b39;
+}
+
+/* youtube Social Button*/
+
+.social-icon-youtube {
+    color: #dd4b39;
+    top: 22%;
+    left: 28%;
+}
+
+.youtube:before {
+    background-color: #dd4b39;
+}
+
+/* tumblr Social Button*/
+
+.social-icon-tumblr {
+    color: #32506d;
+    top: 22%;
+    left: 34%;
+}
+
+.tumblr:before {
+    background-color: #32506d;
+}
