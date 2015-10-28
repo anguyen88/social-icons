@@ -161,3 +161,27 @@ button:focus {
 .tumblr:before {
     background-color: #32506d;
 }
+
+/* vimeo Social Button*/
+
+.social-icon-vimeo {
+    color: #aad450;
+    top: 22%;
+    left: 23%;
+}
+
+.vimeo:before {
+    background-color: #aad450;
+}
+
+/* foursquare Social Button*/
+
+.social-icon-foursquare {
+    color: #0072b1;
+    top: 22%;
+    left: 34%;
+}
+
+.foursquare:before {
+    background-color: #0072b1;
+}
