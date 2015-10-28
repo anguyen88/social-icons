@@ -1,3 +1,5 @@
+![Demo Image](/img/demo.jpg)
+
 # Social Share Icons
 
 Just some share icons that use the material design card style on hover.
